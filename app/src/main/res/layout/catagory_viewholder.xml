@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="250dp"
+    android:layout_margin="5dp"
+    android:divider="@android:drawable/alert_dark_frame"
+    android:orientation="vertical"
+    android:background="@drawable/border"
+    >
+
+
+    <ImageView
+        android:id="@+id/f_image"
+        android:layout_width="153dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:paddingTop="6dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/f_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="pramod" />
+
+    <TextView
+        android:id="@+id/f_work"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/work" />
+
+    <Button
+        android:id="@+id/Select"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/round_boutton"
+        android:backgroundTint="#9F3F3F"
+        android:text="SELECT" />
+</LinearLayout>

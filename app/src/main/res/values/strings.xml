@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Fiver</string>
+    <string name="work">android_developer</string>
+    <string name="catagory1">Android Development</string>
+    <string name="Welcome">Welcome to Fiver</string>
+</resources>

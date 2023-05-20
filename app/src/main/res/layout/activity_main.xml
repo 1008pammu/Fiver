@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.MainActivity"
+   >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="165dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="40dp"
+
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:text="@string/Welcome"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/category_name"
+        android:layout_width="248dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="4dp"
+        android:focusable="auto"
+        android:fontFamily="sans-serif-black"
+        android:gravity="fill_horizontal|left"
+        android:paddingLeft="24dp"
+        android:text="@string/catagory1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/catagory_recycler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/catagory_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="264dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.318"
+        tools:listitem="@layout/catagory_viewholder" />
+</androidx.constraintlayout.widget.ConstraintLayout>

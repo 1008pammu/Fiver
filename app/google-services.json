@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "955778977283",
+    "project_id": "fiver-b53d3",
+    "storage_bucket": "fiver-b53d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955778977283:android:228d2b93685ba1b2000836",
+        "android_client_info": {
+          "package_name": "com.example.fiver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955778977283-abftgrqukks372mhr2dv7n52qureopu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGWyhNAZPQwUZpO6enyPh72GeLRcXb3JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955778977283-abftgrqukks372mhr2dv7n52qureopu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
